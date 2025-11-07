@@ -37,6 +37,8 @@ WebDriver driver;
 	
 	@Override
 	public void onTestFailure(ITestResult result) {
+		ProjectReportsClass.test.log(Status.FAIL, "This test has failed");
+		
 		WebDriver currentDriver = DriverSetUp.getDriver(); 
 
         // 2. ONLY proceed if the driver is not null

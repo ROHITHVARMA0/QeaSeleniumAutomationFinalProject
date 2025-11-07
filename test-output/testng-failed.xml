@@ -15,6 +15,38 @@
           <include name="savingDataInCollections"/>
         </methods>
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms -->
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="closeDriver"/>
+          <include name="testSearchBarInput"/>
+          <include name="verifyCarWashingServices"/>
+          <include name="testLoginCancelOperationAndClosePopUpMessage"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome -->
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage">
+        <methods>
+          <include name="homePageClickingFreeListingIcon"/>
+          <include name="suiteSetup"/>
+          <include name="closeDriver"/>
+          <include name="sendData"/>
+          <include name="printErrorMessage"/>
+          <include name="takeScreenShot"/>
+          <include name="navigateToHomePage"/>
+          <include name="cookieAndRefersh"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage -->
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="savingDataInCollections"/>
+          <include name="closeDriver"/>
+          <include name="scrolling"/>
+          <include name="navigateBackToHomepage"/>
+          <include name="setupCarWashingPage"/>
+          <include name="testSortByRatingWithSpecificRating"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

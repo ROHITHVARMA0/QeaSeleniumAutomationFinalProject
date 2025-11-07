@@ -2,90 +2,90 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-06T15:16:21 IST" name="Suite" finished-at="2025-11-06T15:18:47 IST" duration-ms="146116">
+  <suite started-at="2025-11-07T17:21:35 IST" name="Suite" finished-at="2025-11-07T17:23:25 IST" duration-ms="110331">
     <groups>
     </groups>
-    <test started-at="2025-11-06T15:16:21 IST" name="Test" finished-at="2025-11-06T15:18:47 IST" duration-ms="146116">
+    <test started-at="2025-11-07T17:21:35 IST" name="Test" finished-at="2025-11-07T17:23:25 IST" duration-ms="110331">
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-06T15:16:01 IST" name="suiteSetup" finished-at="2025-11-06T15:16:21 IST" duration-ms="19666" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:27 IST" name="suiteSetup" finished-at="2025-11-07T17:21:35 IST" duration-ms="8399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="testLoginCancelOperationAndClosePopUpMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-06T15:16:22 IST" name="testLoginCancelOperationAndClosePopUpMessage" finished-at="2025-11-06T15:16:28 IST" duration-ms="5722" status="PASS">
+        <test-method is-config="true" signature="testLoginCancelOperationAndClosePopUpMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:35 IST" name="testLoginCancelOperationAndClosePopUpMessage" finished-at="2025-11-07T17:21:41 IST" duration-ms="5303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginCancelOperationAndClosePopUpMessage -->
-        <test-method signature="testSearchBarInput()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-06T15:16:28 IST" name="testSearchBarInput" finished-at="2025-11-06T15:16:41 IST" duration-ms="12765" status="PASS">
+        <test-method signature="testSearchBarInput()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:41 IST" name="testSearchBarInput" finished-at="2025-11-07T17:21:51 IST" duration-ms="10637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchBarInput -->
-        <test-method signature="verifyCarWashingServices()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-06T15:16:41 IST" name="verifyCarWashingServices" finished-at="2025-11-06T15:16:41 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome.testSearchBarInput" duration-ms="33" status="PASS">
+        <test-method signature="verifyCarWashingServices()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:51 IST" name="verifyCarWashingServices" finished-at="2025-11-07T17:21:51 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome.testSearchBarInput" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarWashingServices -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-06T15:18:49 IST" name="closeDriver" finished-at="2025-11-06T15:18:58 IST" duration-ms="9296" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:23:26 IST" name="closeDriver" finished-at="2025-11-07T17:23:34 IST" duration-ms="7530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms">
-        <test-method is-config="true" signature="verifyGymsTitleClass()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-06T15:17:46 IST" name="verifyGymsTitleClass" finished-at="2025-11-06T15:17:47 IST" duration-ms="1674" status="PASS">
+        <test-method is-config="true" signature="verifyGymsTitleClass()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:22:27 IST" name="verifyGymsTitleClass" finished-at="2025-11-07T17:22:30 IST" duration-ms="3028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGymsTitleClass -->
-        <test-method signature="scrollToViewAndLoadElements()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-06T15:17:47 IST" name="scrollToViewAndLoadElements" finished-at="2025-11-06T15:18:40 IST" duration-ms="52593" status="PASS">
+        <test-method signature="scrollToViewAndLoadElements()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:22:30 IST" name="scrollToViewAndLoadElements" finished-at="2025-11-07T17:23:20 IST" duration-ms="50283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToViewAndLoadElements -->
-        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-06T15:18:40 IST" name="savingDataInCollections" finished-at="2025-11-06T15:18:47 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements" duration-ms="7184" status="PASS">
+        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:23:20 IST" name="savingDataInCollections" finished-at="2025-11-07T17:23:25 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements" duration-ms="5139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savingDataInCollections -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage">
-        <test-method is-config="true" signature="homePageClickingFreeListingIcon()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:15 IST" name="homePageClickingFreeListingIcon" finished-at="2025-11-06T15:17:21 IST" duration-ms="6241" status="PASS">
+        <test-method is-config="true" signature="homePageClickingFreeListingIcon()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:13 IST" name="homePageClickingFreeListingIcon" finished-at="2025-11-07T17:22:16 IST" duration-ms="3140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageClickingFreeListingIcon -->
-        <test-method signature="cookieAndRefersh()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:21 IST" name="cookieAndRefersh" finished-at="2025-11-06T15:17:25 IST" duration-ms="4208" status="PASS">
+        <test-method signature="cookieAndRefersh()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:17 IST" name="cookieAndRefersh" finished-at="2025-11-07T17:22:18 IST" duration-ms="1851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookieAndRefersh -->
-        <test-method signature="sendData()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:25 IST" name="sendData" finished-at="2025-11-06T15:17:27 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.cookieAndRefersh" duration-ms="1668" status="PASS">
+        <test-method signature="sendData()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:18 IST" name="sendData" finished-at="2025-11-07T17:22:19 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.cookieAndRefersh" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendData -->
-        <test-method signature="takeScreenShot()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:27 IST" name="takeScreenShot" finished-at="2025-11-06T15:17:28 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData" duration-ms="765" status="PASS">
+        <test-method signature="takeScreenShot()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:19 IST" name="takeScreenShot" finished-at="2025-11-07T17:22:20 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="printErrorMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:28 IST" name="printErrorMessage" finished-at="2025-11-06T15:17:29 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot" duration-ms="718" status="PASS">
+        <test-method signature="printErrorMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:20 IST" name="printErrorMessage" finished-at="2025-11-07T17:22:20 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printErrorMessage -->
-        <test-method signature="navigateToHomePage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-06T15:17:29 IST" name="navigateToHomePage" finished-at="2025-11-06T15:17:46 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage" duration-ms="16977" status="PASS">
+        <test-method signature="navigateToHomePage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:20 IST" name="navigateToHomePage" finished-at="2025-11-07T17:22:27 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage" duration-ms="6826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices">
-        <test-method is-config="true" signature="setupCarWashingPage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-06T15:16:41 IST" name="setupCarWashingPage" finished-at="2025-11-06T15:16:41 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="setupCarWashingPage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:51 IST" name="setupCarWashingPage" finished-at="2025-11-07T17:21:51 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCarWashingPage -->
-        <test-method signature="testSortByRatingWithSpecificRating()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-06T15:16:41 IST" name="testSortByRatingWithSpecificRating" finished-at="2025-11-06T15:16:43 IST" depends-on-methods="testSearchBarInput" duration-ms="2400" status="PASS">
+        <test-method signature="testSortByRatingWithSpecificRating()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:51 IST" name="testSortByRatingWithSpecificRating" finished-at="2025-11-07T17:21:53 IST" depends-on-methods="testSearchBarInput" duration-ms="1203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByRatingWithSpecificRating -->
-        <test-method signature="scrolling()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-06T15:16:44 IST" name="scrolling" finished-at="2025-11-06T15:17:05 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating" duration-ms="21895" status="PASS">
+        <test-method signature="scrolling()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:53 IST" name="scrolling" finished-at="2025-11-07T17:22:06 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating" duration-ms="13591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrolling -->
-        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-06T15:17:05 IST" name="savingDataInCollections" finished-at="2025-11-06T15:17:07 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling" duration-ms="1836" status="PASS">
+        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:22:06 IST" name="savingDataInCollections" finished-at="2025-11-07T17:22:07 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savingDataInCollections -->
-        <test-method signature="navigateBackToHomepage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-06T15:17:07 IST" name="navigateBackToHomepage" finished-at="2025-11-06T15:17:15 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections" duration-ms="7716" status="PASS">
+        <test-method signature="navigateBackToHomepage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:22:07 IST" name="navigateBackToHomepage" finished-at="2025-11-07T17:22:13 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections" duration-ms="6209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateBackToHomepage -->

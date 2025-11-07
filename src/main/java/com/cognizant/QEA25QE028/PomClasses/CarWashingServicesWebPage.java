@@ -35,49 +35,57 @@ public class CarWashingServicesWebPage {
 	
 	
 	
-	//PageFactory WebElements
-
+	//PageFactory WebElements 
+	
+	//Web Element of "Sort By" filter
 	@FindBy(xpath="//span[text()='Sort by']/parent::button")
 	public WebElement sortingList;
-
+	
+	//Web Element of Rating in "Sort By" filter 
 	@FindBy(xpath="//span[text()='Rating']")
 	public WebElement ratingElement;
-
-
+	
+	//Web Element of Sort By "Rating" filter
 	@FindBy(xpath="//span[text()='Ratings']/parent::button")
 	public WebElement ratingGreaterThan4;
-
-
+	
+	//Web Element of rating Greater than "4.0+"
 	@FindBy(xpath="//span[text()='4.0+']")
 	public WebElement ratingElement1;
 	
 	//List of Web Elements
 	
+	//List of the store names
 	@FindBy(xpath="//div/ul/li/div/div/span[starts-with(text(),'0')]/ancestor::div/div/h2/a/h3")
 	public List<WebElement> storeNameElements;
 	
+	//List of store names
 	@FindBy(xpath="//div/ul/li/div/div/span[starts-with(text(),'0')]")
 	public List<WebElement> phoneNumberElements;
 	
-	
+	//Web element of assert element 
 	@FindBy(xpath = "//h1")
 	public WebElement assertText;
 	
 	
 	//WebElement clicking methods
 	
+	//Clicking on sorting element
 	public void sortingListClick() {
 		sortingList.click();
 	}
 	
+	//Clicking on the sort by rating element 
 	public void ratingElementClick() {
 		ratingElement.click();
 	}
 	
+	//Clicking on the sort by specific rating element
 	public void ratingGreaterThan4Click() {
 		ratingGreaterThan4.click();
 	}
 	
+	//Clicking on the sort by specific rating element like greater than "4.0+"
 	public void ratingElement1Click() {
 		ratingElement1.click();
 	}
@@ -127,6 +135,7 @@ public class CarWashingServicesWebPage {
 		
 	}
 	
+	//WebDriverWait for the element for the element's visibility for 10 seconds
 	public void waitVisibilityOfElement(WebElement element) {
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}

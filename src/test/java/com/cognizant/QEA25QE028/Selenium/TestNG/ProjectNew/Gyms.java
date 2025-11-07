@@ -47,11 +47,23 @@ public class Gyms extends DriverSetUp{
 		
 		gymWebPage = PageFactory.initElements(driver, GymsWebPage.class);
 		jdHP = PageFactory.initElements(driver, JustDialHomePage.class);
+		
+		
+
+		// delete the cookies in this web site
+//		driver.manage().deleteAllCookies();
+		gymWebPage.deleteCookies();
+
+		// Refreshing the web page so that the web structure doesn't change
+//		driver.navigate().refresh();
+		gymWebPage.refreshWebPage();
+		
+		
 		jdHP.verifyGymsTitle();
 		
 	}
 	
-	
+/*	
 //	@Test(dependsOnMethods = "navigateToHomePage")
 //	public void clickOnGymIcon() {
 //		
@@ -70,7 +82,7 @@ public class Gyms extends DriverSetUp{
 ////		driver.navigate().refresh();
 //		gymWebPage.refreshWebPage();
 //		
-//	}
+//	}*/
 	
 //	@Test(dependsOnMethods = "verifyGymsTitle")
 	@Test

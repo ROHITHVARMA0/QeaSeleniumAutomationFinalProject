@@ -12,7 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WriteIntoExcelFile {
 	
 	
-	
+	//Store car washing services details in the excel file
 	public static void carWashingDataIntoExcel(List<String> storeNamesText , List<String> phoneNumbersText) throws IOException {
 		
 		//FileOutputStream writeIntoExcelSheet = new FileOutputStream(System.getProperty("user.dir")+"\\test-output\\projectResourcesOutputs\\IdentifyCarWashingServices.xlsx");
@@ -49,10 +49,10 @@ public class WriteIntoExcelFile {
  				}
  				
  				else if( j == 1 ) {
- 					currentCell.setCellValue(storeNamesText.get(i));
+ 					currentCell.setCellValue(storeNamesText.get(i-1));
  				}
  				else if ( j == 2 ) {
- 					currentCell.setCellValue(phoneNumbersText.get(i));
+ 					currentCell.setCellValue(phoneNumbersText.get(i-1));
  				}
  				
  			}
@@ -64,7 +64,7 @@ public class WriteIntoExcelFile {
  		
 	}
 	
-	
+	//Store gyms details in the excel file
 	public static void gymsDataIntoExcel( List<String> gymNamesText , List<String> gymPhoneNumbersText ) throws IOException {
 		
 		
@@ -84,7 +84,7 @@ public class WriteIntoExcelFile {
  		
  	//	int gymNamesSize = gymNamesText.size();
  		
- 		for ( int i = 0 ; i < rowsSize ; i++ ) {
+ 		for ( int i = 0 ; i <= rowsSize ; i++ ) {
  			
  			XSSFRow currentRow = sheet.createRow(i);
  			
@@ -105,11 +105,11 @@ public class WriteIntoExcelFile {
 	 				
 	 				
 	 				else if( j == 1 ) {
-		 				currentCell.setCellValue(gymNamesText.get(i));
+		 				currentCell.setCellValue(gymNamesText.get(i-1));
 		 			}
 		 			
 	 				else if ( j == 2 ) {
-		 				currentCell.setCellValue(gymPhoneNumbersText.get(i));
+		 				currentCell.setCellValue(gymPhoneNumbersText.get(i-1));
 		 			}
  				}
  				
@@ -123,7 +123,7 @@ public class WriteIntoExcelFile {
 		
 	}
 	
-	
+	//Store gyms details without phone number in the excel file
 	public static void gymsDataWithOutPhNumIntoExcel( List<String> gymNamesTextWithoutPhno , List<String> gymPhoneNumbersTextWithoutPhNo ) throws IOException {
 		
 		
@@ -143,9 +143,10 @@ public class WriteIntoExcelFile {
  		
  		//int gymNamesSize = gymNamesText.size();
  		
- 		for ( int i = 0 ; i < rowsSize ; i++ ) {
+ 		for ( int i = 0 ; i <= rowsSize ; i++ ) {
  			
  			XSSFRow currentRow = sheet.createRow(i);
+ 			
  			
  			for ( int j = 0 ; j < columnsSize ; j++ ) {
  				
@@ -166,11 +167,11 @@ public class WriteIntoExcelFile {
 	 				
 	 				
 		 			if( j == 1 ) {
-		 				currentCell.setCellValue(gymNamesTextWithoutPhno.get(i));
+		 				currentCell.setCellValue(gymNamesTextWithoutPhno.get(i-1));
 		 			}
 		 			
 		 			if ( j == 2 ) {
-		 				currentCell.setCellValue(gymPhoneNumbersTextWithoutPhNo.get(i));
+		 				currentCell.setCellValue(gymPhoneNumbersTextWithoutPhNo.get(i-1));
 		 			}
 		 			
  				}

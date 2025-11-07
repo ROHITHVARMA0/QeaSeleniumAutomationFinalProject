@@ -17,57 +17,7 @@ public class CarWashingServices extends DriverSetUp{
 	CarWashingServicesWebPage carWebPage;
 	
 	
-		
-	
-//	@BeforeClass
-//	public void testLoginCancelOperationAndClosePopUpMessage() {
-//		//carWebPage = PageFactory.initElements(driver, CarWashingServicesWebPage.class);
-//		//deleteCookies();
-//		carWebPage = new CarWashingServicesWebPage(driver);
-//		
-//		//Initializing WebDriverWait for any further usage
-//		//wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//		// Closing the Login Page without Logging into the Web Page
-////		WebElement loginMayBeLater = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Maybe Later']")));
-//		//wait.until(ExpectedConditions.visibilityOf(carWebPage.loginMayBeLater));
-//		carWebPage.waitVisibilityOfElement(carWebPage.loginMayBeLater);
-//		carWebPage.loginMayBeLaterClick();
-//
-//		// Closing the popUp Message
-////		WebElement popUp = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@aria-label='Close Banner']")));
-////		wait.until(ExpectedConditions.visibilityOf(carWebPage.popUp));
-//		carWebPage.waitVisibilityOfElement(carWebPage.popUp);
-//		carWebPage.popUpClick();
-//	}
-//	
-//	
-//	@Test
-//	public void testSearchBarInput() throws InterruptedException, IOException {
-//		//deleteCookies();
-//		
-////		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		
-////		WebElement locationSelection = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@aria-label='Select Location']")));
-////		wait.until(ExpectedConditions.visibilityOf(carWebPage.locationSelection));
-//		carWebPage.waitVisibilityOfElement(carWebPage.locationSelection);
-//		carWebPage.locationSelectionClick();
-//		
-////		WebElement detectLocationElement = driver.findElement(By.xpath("//div[contains(text(),'Detect L')]"));
-//		carWebPage.detectLocationElementClick();
-//		
-//		Thread.sleep(5000);
-//		
-//		//String[] inputData = ReadFromExcelFile.testReadExcelSheet();
-//
-//		// Finding the Search Bar and Entering the Car Washing Services Near me as Input
-////		WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("main-auto")));
-////		wait.until(ExpectedConditions.visibilityOf(carWebPage.searchBar));
-//		carWebPage.waitVisibilityOfElement(carWebPage.searchBar);
-//		carWebPage.searchBarSendKeys();
-//	}
-	
-	
+
 	@BeforeClass
     public void setupCarWashingPage() {
         // CHECK 1: If the flag is false, skip the entire class setup
@@ -135,13 +85,13 @@ public class CarWashingServices extends DriverSetUp{
 		
 		carWebPage.refreshWebPage();
 		
-		carWebPage.deleteCookies();
-		
-		carWebPage.refreshWebPage();
-		
-		carWebPage.deleteCookies();
-		
-		carWebPage.refreshWebPage();
+//		carWebPage.deleteCookies();
+//		
+//		carWebPage.refreshWebPage();
+//		
+//		carWebPage.deleteCookies();
+//		
+//		carWebPage.refreshWebPage();
 		
 		carWebPage.scrolling();
 		
@@ -180,10 +130,72 @@ public class CarWashingServices extends DriverSetUp{
         // Assert.assertFalse(currentTitle.contains("Car Washing Services"), "Failed to navigate back.");
     }
 
-
-	
-	
-	
 	
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//@BeforeClass
+//public void testLoginCancelOperationAndClosePopUpMessage() {
+//	//carWebPage = PageFactory.initElements(driver, CarWashingServicesWebPage.class);
+//	//deleteCookies();
+//	carWebPage = new CarWashingServicesWebPage(driver);
+//	
+//	//Initializing WebDriverWait for any further usage
+//	//wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//
+//	// Closing the Login Page without Logging into the Web Page
+////	WebElement loginMayBeLater = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Maybe Later']")));
+//	//wait.until(ExpectedConditions.visibilityOf(carWebPage.loginMayBeLater));
+//	carWebPage.waitVisibilityOfElement(carWebPage.loginMayBeLater);
+//	carWebPage.loginMayBeLaterClick();
+//
+//	// Closing the popUp Message
+////	WebElement popUp = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@aria-label='Close Banner']")));
+////	wait.until(ExpectedConditions.visibilityOf(carWebPage.popUp));
+//	carWebPage.waitVisibilityOfElement(carWebPage.popUp);
+//	carWebPage.popUpClick();
+//}
+//
+//
+//@Test
+//public void testSearchBarInput() throws InterruptedException, IOException {
+//	//deleteCookies();
+//	
+////	wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//	
+////	WebElement locationSelection = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@aria-label='Select Location']")));
+////	wait.until(ExpectedConditions.visibilityOf(carWebPage.locationSelection));
+//	carWebPage.waitVisibilityOfElement(carWebPage.locationSelection);
+//	carWebPage.locationSelectionClick();
+//	
+////	WebElement detectLocationElement = driver.findElement(By.xpath("//div[contains(text(),'Detect L')]"));
+//	carWebPage.detectLocationElementClick();
+//	
+//	Thread.sleep(5000);
+//	
+//	//String[] inputData = ReadFromExcelFile.testReadExcelSheet();
+//
+//	// Finding the Search Bar and Entering the Car Washing Services Near me as Input
+////	WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("main-auto")));
+////	wait.until(ExpectedConditions.visibilityOf(carWebPage.searchBar));
+//	carWebPage.waitVisibilityOfElement(carWebPage.searchBar);
+//	carWebPage.searchBarSendKeys();
+//}
+
