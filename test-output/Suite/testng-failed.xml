@@ -18,24 +18,11 @@
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome">
         <methods>
           <include name="suiteSetup"/>
-          <include name="closeDriver"/>
           <include name="testSearchBarInput"/>
-          <include name="verifyCarWashingServices"/>
+          <include name="closeDriver"/>
           <include name="testLoginCancelOperationAndClosePopUpMessage"/>
         </methods>
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome -->
-      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage">
-        <methods>
-          <include name="homePageClickingFreeListingIcon"/>
-          <include name="suiteSetup"/>
-          <include name="closeDriver"/>
-          <include name="sendData"/>
-          <include name="printErrorMessage"/>
-          <include name="takeScreenShot"/>
-          <include name="navigateToHomePage"/>
-          <include name="cookieAndRefersh"/>
-        </methods>
-      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices">
         <methods>
           <include name="suiteSetup"/>

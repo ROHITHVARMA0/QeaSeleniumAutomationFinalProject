@@ -1,91 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="7" failed="1" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-07T17:21:35 IST" name="Suite" finished-at="2025-11-07T17:23:25 IST" duration-ms="110331">
+  <suite started-at="2025-12-12T11:33:34 IST" name="Suite" finished-at="2025-12-12T11:34:17 IST" duration-ms="43430">
     <groups>
     </groups>
-    <test started-at="2025-11-07T17:21:35 IST" name="Test" finished-at="2025-11-07T17:23:25 IST" duration-ms="110331">
+    <test started-at="2025-12-12T11:33:34 IST" name="Test" finished-at="2025-12-12T11:34:17 IST" duration-ms="43430">
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:27 IST" name="suiteSetup" finished-at="2025-11-07T17:21:35 IST" duration-ms="8399" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@302552ec]" started-at="2025-12-12T11:33:21 IST" name="suiteSetup" finished-at="2025-12-12T11:33:34 IST" duration-ms="13016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="testLoginCancelOperationAndClosePopUpMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:35 IST" name="testLoginCancelOperationAndClosePopUpMessage" finished-at="2025-11-07T17:21:41 IST" duration-ms="5303" status="PASS">
+        <test-method is-config="true" signature="testLoginCancelOperationAndClosePopUpMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@302552ec]" started-at="2025-12-12T11:33:35 IST" name="testLoginCancelOperationAndClosePopUpMessage" finished-at="2025-12-12T11:33:39 IST" duration-ms="3453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginCancelOperationAndClosePopUpMessage -->
-        <test-method signature="testSearchBarInput()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:41 IST" name="testSearchBarInput" finished-at="2025-11-07T17:21:51 IST" duration-ms="10637" status="PASS">
+        <test-method signature="testSearchBarInput()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@302552ec]" started-at="2025-12-12T11:33:39 IST" name="testSearchBarInput" finished-at="2025-12-12T11:33:54 IST" duration-ms="15010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchBarInput -->
-        <test-method signature="verifyCarWashingServices()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:21:51 IST" name="verifyCarWashingServices" finished-at="2025-11-07T17:21:51 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome.testSearchBarInput" duration-ms="12" status="PASS">
+        <test-method signature="verifyCarWashingServices()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@302552ec]" started-at="2025-12-12T11:33:54 IST" name="verifyCarWashingServices" finished-at="2025-12-12T11:33:54 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome.testSearchBarInput" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarWashingServices -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@3d285d7e]" started-at="2025-11-07T17:23:26 IST" name="closeDriver" finished-at="2025-11-07T17:23:34 IST" duration-ms="7530" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome@302552ec]" started-at="2025-12-12T11:34:20 IST" name="closeDriver" finished-at="2025-12-12T11:34:28 IST" duration-ms="8738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms">
-        <test-method is-config="true" signature="verifyGymsTitleClass()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:22:27 IST" name="verifyGymsTitleClass" finished-at="2025-11-07T17:22:30 IST" duration-ms="3028" status="PASS">
+        <test-method is-config="true" signature="verifyGymsTitleClass()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea]" started-at="2025-12-12T11:34:15 IST" name="verifyGymsTitleClass" finished-at="2025-12-12T11:34:17 IST" duration-ms="2176" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@title,'Gym in ')]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, findElement {value=//a[contains(@title,'Gym in ')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58e8aeb166645a809148619a1c95e79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@title,'Gym in ')]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, findElement {value=//a[contains(@title,'Gym in ')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58e8aeb166645a809148619a1c95e79
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.cognizant.QEA25QE028.PomClasses.JustDialHomePage.gymIconClick(JustDialHomePage.java:140)
+at com.cognizant.QEA25QE028.PomClasses.JustDialHomePage.verifyGymsTitle(JustDialHomePage.java:145)
+at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.verifyGymsTitleClass(Gyms.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGymsTitleClass -->
-        <test-method signature="scrollToViewAndLoadElements()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:22:30 IST" name="scrollToViewAndLoadElements" finished-at="2025-11-07T17:23:20 IST" duration-ms="50283" status="PASS">
+        <test-method signature="scrollToViewAndLoadElements()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea]" started-at="2025-12-12T11:34:17 IST" name="scrollToViewAndLoadElements" finished-at="2025-12-12T11:34:17 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@title,'Gym in ')]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, findElement {value=//a[contains(@title,'Gym in ')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58e8aeb166645a809148619a1c95e79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@title,'Gym in ')]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, findElement {value=//a[contains(@title,'Gym in ')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b58e8aeb166645a809148619a1c95e79
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.cognizant.QEA25QE028.PomClasses.JustDialHomePage.gymIconClick(JustDialHomePage.java:140)
+at com.cognizant.QEA25QE028.PomClasses.JustDialHomePage.verifyGymsTitle(JustDialHomePage.java:145)
+at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.verifyGymsTitleClass(Gyms.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToViewAndLoadElements -->
-        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@fbd1f6]" started-at="2025-11-07T17:23:20 IST" name="savingDataInCollections" finished-at="2025-11-07T17:23:25 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements" duration-ms="5139" status="PASS">
+        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea]" started-at="2025-12-12T11:34:17 IST" name="savingDataInCollections" finished-at="2025-12-12T11:34:17 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@55fe41ea]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savingDataInCollections -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage">
-        <test-method is-config="true" signature="homePageClickingFreeListingIcon()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:13 IST" name="homePageClickingFreeListingIcon" finished-at="2025-11-07T17:22:16 IST" duration-ms="3140" status="PASS">
+        <test-method is-config="true" signature="homePageClickingFreeListingIcon()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:33:58 IST" name="homePageClickingFreeListingIcon" finished-at="2025-12-12T11:34:02 IST" duration-ms="3960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageClickingFreeListingIcon -->
-        <test-method signature="cookieAndRefersh()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:17 IST" name="cookieAndRefersh" finished-at="2025-11-07T17:22:18 IST" duration-ms="1851" status="PASS">
+        <test-method signature="cookieAndRefersh()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:34:02 IST" name="cookieAndRefersh" finished-at="2025-12-12T11:34:04 IST" duration-ms="2136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookieAndRefersh -->
-        <test-method signature="sendData()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:18 IST" name="sendData" finished-at="2025-11-07T17:22:19 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.cookieAndRefersh" duration-ms="837" status="PASS">
+        <test-method signature="sendData()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:34:04 IST" name="sendData" finished-at="2025-12-12T11:34:06 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.cookieAndRefersh" duration-ms="1528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendData -->
-        <test-method signature="takeScreenShot()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:19 IST" name="takeScreenShot" finished-at="2025-11-07T17:22:20 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData" duration-ms="354" status="PASS">
+        <test-method signature="takeScreenShot()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:34:06 IST" name="takeScreenShot" finished-at="2025-12-12T11:34:06 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="printErrorMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:20 IST" name="printErrorMessage" finished-at="2025-11-07T17:22:20 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot" duration-ms="380" status="PASS">
+        <test-method signature="printErrorMessage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:34:06 IST" name="printErrorMessage" finished-at="2025-12-12T11:34:07 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printErrorMessage -->
-        <test-method signature="navigateToHomePage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@55fe41ea]" started-at="2025-11-07T17:22:20 IST" name="navigateToHomePage" finished-at="2025-11-07T17:22:27 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage" duration-ms="6826" status="PASS">
+        <test-method signature="navigateToHomePage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@1c1bbc4e]" started-at="2025-12-12T11:34:07 IST" name="navigateToHomePage" finished-at="2025-12-12T11:34:15 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage" duration-ms="8048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHomePage -->
       </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices">
-        <test-method is-config="true" signature="setupCarWashingPage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:51 IST" name="setupCarWashingPage" finished-at="2025-11-07T17:21:51 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="setupCarWashingPage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]" started-at="2025-12-12T11:33:54 IST" name="setupCarWashingPage" finished-at="2025-12-12T11:33:54 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupCarWashingPage -->
-        <test-method signature="testSortByRatingWithSpecificRating()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:51 IST" name="testSortByRatingWithSpecificRating" finished-at="2025-11-07T17:21:53 IST" depends-on-methods="testSearchBarInput" duration-ms="1203" status="PASS">
+        <test-method signature="testSortByRatingWithSpecificRating()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]" started-at="2025-12-12T11:33:54 IST" name="testSortByRatingWithSpecificRating" finished-at="2025-12-12T11:33:58 IST" depends-on-methods="testSearchBarInput" duration-ms="3409" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (1381, 300)
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, clickElement {id=f.84F1819011014EB95179D46D50517D85.d.2D33E8F5C5307C0928AF07771E0105AA.e.217}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b58e8aeb166645a809148619a1c95e79)] -> xpath: //span[text()='Ratings']/parent::button]
+Session ID: b58e8aeb166645a809148619a1c95e79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1381, 300)
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b58e8aeb166645a809148619a1c95e79, clickElement {id=f.84F1819011014EB95179D46D50517D85.d.2D33E8F5C5307C0928AF07771E0105AA.e.217}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b58e8aeb166645a809148619a1c95e79)] -> xpath: //span[text()='Ratings']/parent::button]
+Session ID: b58e8aeb166645a809148619a1c95e79
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.cognizant.QEA25QE028.PomClasses.CarWashingServicesWebPage.ratingGreaterThan4Click(CarWashingServicesWebPage.java:86)
+at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating(CarWashingServices.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByRatingWithSpecificRating -->
-        <test-method signature="scrolling()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:21:53 IST" name="scrolling" finished-at="2025-11-07T17:22:06 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating" duration-ms="13591" status="PASS">
+        <test-method signature="scrolling()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]" started-at="2025-12-12T11:33:58 IST" name="scrolling" finished-at="2025-12-12T11:33:58 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrolling -->
-        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:22:06 IST" name="savingDataInCollections" finished-at="2025-11-07T17:22:07 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling" duration-ms="863" status="PASS">
+        <test-method signature="savingDataInCollections()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]" started-at="2025-12-12T11:33:58 IST" name="savingDataInCollections" finished-at="2025-12-12T11:33:58 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- savingDataInCollections -->
-        <test-method signature="navigateBackToHomepage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1c1bbc4e]" started-at="2025-11-07T17:22:07 IST" name="navigateBackToHomepage" finished-at="2025-11-07T17:22:13 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections" duration-ms="6209" status="PASS">
+        <test-method signature="navigateBackToHomepage()[pri:0, instance:com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]" started-at="2025-12-12T11:33:58 IST" name="navigateBackToHomepage" finished-at="2025-12-12T11:33:58 IST" depends-on-methods="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.navigateBackToHomepage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.navigateBackToHomepage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@ba2f4ec]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateBackToHomepage -->

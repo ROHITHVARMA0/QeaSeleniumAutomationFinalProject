@@ -41,27 +41,25 @@ WebDriver driver;
 		
 		WebDriver currentDriver = DriverSetUp.getDriver(); 
 
-        // 2. ONLY proceed if the driver is not null
         if (currentDriver != null) {
             try {
-                // The NullPointerException was here (ProjectEventListeners.java:38)
+                
                 TakesScreenshot screenShot = (TakesScreenshot) currentDriver;
                 
-                // 1. Get the temporary screenshot file (src)
+                
                 File src = screenShot.getScreenshotAs(OutputType.FILE);
 
-                // 2. Define the target directory
+
                 File targetDir = new File("C:\\Users\\2440837\\eclipse-workspace\\HackathonProject\\test-output");
 
-                // 3. Copy the file into the directory. It will use the original temp file name.
-//                    (The destination file will be: ...\\projectResourcesOutputs\\temp_selenium_file.png)
+                
                 FileUtils.copyFileToDirectory(src, targetDir);
                 
             } catch (Exception e) {
-                System.err.println("Error taking screenshot: " + e.getMessage());
+                System.out.println("Error taking screenshot: " + e.getMessage());
             }
         } else {
-            System.err.println("Driver instance is null in listener, cannot take screenshot.");
+            System.out.println("Driver instance is null in listener, cannot take screenshot.");
         }
     }	
 	

@@ -26,30 +26,22 @@ public class JustDialFreeListingErrorMessage extends DriverSetUp {
 	
 //	@Test
 	public void navigatingToHomePage() {
-		//freeListingWebElements = PageFactory.initElements(driver, JustDialFreeListingErrorMessageWebPage.class);
-		
-//		freeListingWebElements = new JustDialFreeListingErrorMessageWebPage(driver);
 		
 		//Going back to the home page of Just Dial Web site
-//		driver.navigate().back();
 		freeListingWebElements.navigateBackWebPage();
 
 		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
 		freeListingWebElements.deleteCookies();
 
 		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		freeListingWebElements.refreshWebPage();
 				
 		
 	}
 	
-//	@Test(dependsOnMethods = "navigatingToHomePage")
 	@BeforeClass
 	public void homePageClickingFreeListingIcon() {
 		
-		//freeListingWebElements = new JustDialFreeListingErrorMessageWebPage(driver);
 		freeListingWebElements = new JustDialFreeListingErrorMessageWebPage(driver);
 		jdHP = new JustDialHomePage(driver);
 		jdHP.verifyFreeListingTitle();
@@ -62,16 +54,13 @@ public class JustDialFreeListingErrorMessage extends DriverSetUp {
 		
 	}
 	
-//	@Test(dependsOnMethods = "homePageClickingFreeListingIcon")
 	@Test
 	public void cookieAndRefersh() {
 		
 		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
 		freeListingWebElements.deleteCookies();
 
 		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		freeListingWebElements.refreshWebPage();
 		
 	}
@@ -119,9 +108,7 @@ public class JustDialFreeListingErrorMessage extends DriverSetUp {
 		freeListingWebElements.deleteCookies();
 		
 		freeListingWebElements.refreshWebPage();
-		
-		//freeListingWebElements.navigateBackWebPage();
-		
+				
 		freeListingWebElements.navigateBackWebPage();
 		
 		freeListingWebElements.deleteCookies();
@@ -131,6 +118,7 @@ public class JustDialFreeListingErrorMessage extends DriverSetUp {
 		freeListingWebElements.deleteCookies();
 		
 		freeListingWebElements.refreshWebPage();
+		
 		
 		
 	}

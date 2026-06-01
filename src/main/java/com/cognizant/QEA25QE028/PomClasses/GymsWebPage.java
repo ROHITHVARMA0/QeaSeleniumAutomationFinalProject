@@ -22,6 +22,7 @@ public class GymsWebPage {
 	WebDriver driver;
 	JavascriptExecutor js;
 	
+	//GymsWebPage constructor when gets invoked the WebDriver gets initialized
 	public GymsWebPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -31,12 +32,15 @@ public class GymsWebPage {
 //	@FindBy(xpath="//a[contains(@title,'Gym in ')]")
 //	public WebElement gymIcon;
 	
+	//Get the list of web elements of gym name that shows or do not show phone number
 	@FindBy(xpath = "//h3[@class='jsx-5dc0aa11bf0ffdf3 resultbox_title_anchor font22 fw500 color111 line_clamp_1 ']")
 	public List<WebElement> gymNameElementsWithoutPhNo;
 	
+	//Get the list of web elements that shows or do not show phone number
 	@FindBy(xpath="//span[contains(@class,'jsx-5dc0aa11bf0ffdf3 callcontent')]")
 	public List<WebElement> gymPhoneNumberElementsWithoutPhNo;
 	
+	//
 	@FindBy(xpath="//div/ul/li/div/div/span[contains(text(),'0')]/ancestor::div/div/h2/a/h3")
 	public List<WebElement> gymNameElements;
 	
@@ -51,7 +55,7 @@ public class GymsWebPage {
 //	}
 	
 	
-	
+	//Getting the required web elements from the web page and converting it to string data and sending that dat to specific excel writing method and writing it into excel
 	public void printingDataIntoExcel() throws IOException {
 	
 			// Storing the names of Gym that does not have phone numbers
@@ -97,7 +101,7 @@ public class GymsWebPage {
 		}
 	
 	
-	// Refreshing the web page so that the web structure doesn't change
+		// Refreshing the web page so that the web structure doesn't change
 		public void refreshWebPage() {
 			driver.navigate().refresh();
 		}
@@ -113,6 +117,7 @@ public class GymsWebPage {
 			driver.navigate().back();
 		}
 		
+		//scrolling the web page to load more gyms
 		public void scrolling() throws InterruptedException {
 			
 			js = (JavascriptExecutor) driver;
@@ -128,17 +133,19 @@ public class GymsWebPage {
 			}
 		}	
 		
-		
+		//Verifying the gyms title
 		public void testGymsTitle() {
 			if (!JustDialHomePage.proceedToGyms) {
 	            throw new SkipException("Skipping FreeListing class because title verification failed in JustDialHome.");
 	       }
 		}
 		
+		//Getting the string text to verify whether we are getting the gym data web page or not
 		public String gymSearchText() {
 			return gymSearchTextElement.getText();
 		}
 		
+		//Verifying whether the web page is opened or not
 		public String getGymWebPageTitle() {
 			return driver.getTitle();
 		}

@@ -19,22 +19,18 @@ public class Gyms extends DriverSetUp{
 	
 	public JustDialHomePage jdHP;
 	
-//	@Test
-	//It will not execute because there is not @Test annotation
+	
 	public void navigateToHomePage() {
 		
 		gymWebPage = PageFactory.initElements(driver, GymsWebPage.class);
 		
 		//Going back to the home page of Just Dial Web site
-//		driver.navigate().back();
 		gymWebPage.navigateBackWebPageGym();
 
 		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
 		gymWebPage.deleteCookies();
 
 		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		gymWebPage.refreshWebPage();
 		
 		
@@ -51,11 +47,9 @@ public class Gyms extends DriverSetUp{
 		
 
 		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
 		gymWebPage.deleteCookies();
 
 		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		gymWebPage.refreshWebPage();
 		
 		
@@ -63,37 +57,8 @@ public class Gyms extends DriverSetUp{
 		
 	}
 	
-/*	
-//	@Test(dependsOnMethods = "navigateToHomePage")
-//	public void clickOnGymIcon() {
-//		
-//		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//		// Clicking on the Gym Icon
-////		WebElement gymIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@title,'Gym in ')]")));
-//		wait.until(ExpectedConditions.elementToBeClickable(gymWebPage.gymIcon));
-//		gymWebPage.gymIconClick();
-//		
-//		// delete the cookies in this web site
-////		driver.manage().deleteAllCookies();
-//		gymWebPage.deleteCookies();
-//
-//		// Refreshing the web page so that the web structure doesn't change
-////		driver.navigate().refresh();
-//		gymWebPage.refreshWebPage();
-//		
-//	}*/
-	
-//	@Test(dependsOnMethods = "verifyGymsTitle")
 	@Test
 	public void scrollToViewAndLoadElements() throws InterruptedException {
-		
-		
-//		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
-//
-//		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		
 		gymWebPage.deleteCookies();
 		
@@ -108,15 +73,7 @@ public class Gyms extends DriverSetUp{
 		gymWebPage.deleteCookies();
 		
 		gymWebPage.refreshWebPage();
-		
-//		gymWebPage.deleteCookies();
-//		
-//		gymWebPage.refreshWebPage();
-//		
-//		gymWebPage.deleteCookies();
-//		
-//		gymWebPage.refreshWebPage();
-		
+				
 		gymWebPage.scrolling();
 		
 		String gymPageTitle = gymWebPage.getGymWebPageTitle();
@@ -134,19 +91,15 @@ public class Gyms extends DriverSetUp{
 		gymWebPage.printingDataIntoExcel();
 		
 		//Going back to the home page of Just Dial Web site
-//		driver.navigate().back();
 		gymWebPage.navigateBackWebPageGym();
 
 		// delete the cookies in this web site
-//		driver.manage().deleteAllCookies();
 		gymWebPage.deleteCookies();
 
 		// Refreshing the web page so that the web structure doesn't change
-//		driver.navigate().refresh();
 		gymWebPage.refreshWebPage();
 		
 		
-//		driver.manage().deleteAllCookies();
 		gymWebPage.deleteCookies();
 		
 		

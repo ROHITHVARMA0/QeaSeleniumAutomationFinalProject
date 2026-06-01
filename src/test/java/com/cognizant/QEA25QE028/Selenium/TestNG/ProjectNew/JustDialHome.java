@@ -38,15 +38,11 @@ public class JustDialHome extends DriverSetUp {
 		jdHP.waitVisibilityOfElement(jdHP.locationSelection);
 		jdHP.locationSelectionClick();
 		
-//		WebElement detectLocationElement = driver.findElement(By.xpath("//div[contains(text(),'Detect L')]"));
 		jdHP.detectLocationElementClick();
 		
 		Thread.sleep(5000);
 		
-		//String[] inputData = ReadFromExcelFile.testReadExcelSheet();
-
 		// Finding the Search Bar and Entering the Car Washing Services Near me as Input
-
 		jdHP.waitVisibilityOfElement(jdHP.searchBar);
 		jdHP.searchBarSendKeys();
 		Thread.sleep(3000);

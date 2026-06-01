@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,75 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">13 methods, 2 failed,  8 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="sendData">sendData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="testSortByRatingWithSpecificRating">testSortByRatingWithSpecificRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="navigateBackToHomepage">navigateBackToHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="navigateToHomePage">navigateToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="printErrorMessage">printErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms" class="method navigator-link" hash-for-method="savingDataInCollections">savingDataInCollections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="savingDataInCollections">savingDataInCollections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms" class="method navigator-link" hash-for-method="scrollToViewAndLoadElements">scrollToViewAndLoadElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="scrolling">scrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="takeScreenShot">takeScreenShot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,57 +176,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="navigateBackToHomepage">navigateBackToHomepage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="navigateToHomePage">navigateToHomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="printErrorMessage">printErrorMessage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms" class="method navigator-link" hash-for-method="savingDataInCollections">savingDataInCollections</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="savingDataInCollections">savingDataInCollections</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms" class="method navigator-link" hash-for-method="scrollToViewAndLoadElements">scrollToViewAndLoadElements</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="scrolling">scrolling</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="sendData">sendData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage" class="method navigator-link" hash-for-method="takeScreenShot">takeScreenShot</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome" class="method navigator-link" hash-for-method="testSearchBarInput">testSearchBarInput</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices" class="method navigator-link" hash-for-method="testSortByRatingWithSpecificRating">testSortByRatingWithSpecificRating</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -178,9 +196,136 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendData">
+                  </a> <!-- sendData -->
+                  <span class="method-name">sendData</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.108)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e8d9e1e098a0dc54ff719d3d1eb17cc, findElement {using=id, value=1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51581/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e8d9e1e098a0dc54ff719d3d1eb17cc
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isEnabled(Unknown Source)
+	at com.cognizant.QEA25QE028.PomClasses.JustDialFreeListingErrorMessageWebPage.assertPhoneNumberEnabled(JustDialFreeListingErrorMessageWebPage.java:134)
+	at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData(JustDialFreeListingErrorMessage.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByRatingWithSpecificRating">
+                  </a> <!-- testSortByRatingWithSpecificRating -->
+                  <span class="method-name">testSortByRatingWithSpecificRating</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1381, 300)
+  (Session info: chrome=141.0.7390.108)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e8d9e1e098a0dc54ff719d3d1eb17cc, clickElement {id=f.66A0731CCF63DD50ED82BA0F72293109.d.FF6053FF60A83EE3D6CA55B0EF22E833.e.230}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51581/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2e8d9e1e098a0dc54ff719d3d1eb17cc)] -&gt; xpath: //span[text()=&apos;Ratings&apos;]/parent::button]
+Session ID: 2e8d9e1e098a0dc54ff719d3d1eb17cc
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at com.cognizant.QEA25QE028.PomClasses.CarWashingServicesWebPage.ratingGreaterThan4Click(CarWashingServicesWebPage.java:86)
+	at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating(CarWashingServices.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHomePage">
+                  </a> <!-- navigateToHomePage -->
+                  <span class="method-name">navigateToHomePage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.navigateToHomePage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printErrorMessage">
+                  </a> <!-- printErrorMessage -->
+                  <span class="method-name">printErrorMessage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.printErrorMessage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="takeScreenShot">
+                  </a> <!-- takeScreenShot -->
+                  <span class="method-name">takeScreenShot</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.takeScreenShot() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage.sendData() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage@59662a0b]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -189,6 +334,11 @@
                   <a name="navigateBackToHomepage">
                   </a> <!-- navigateBackToHomepage -->
                   <span class="method-name">navigateBackToHomepage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.navigateBackToHomepage() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -196,6 +346,11 @@
                   <a name="savingDataInCollections">
                   </a> <!-- savingDataInCollections -->
                   <span class="method-name">savingDataInCollections</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -203,13 +358,83 @@
                   <a name="scrolling">
                   </a> <!-- scrolling -->
                   <span class="method-name">scrolling</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.scrolling() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices.testSortByRatingWithSpecificRating() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices@1b7cc17c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="savingDataInCollections">
+                  </a> <!-- savingDataInCollections -->
+                  <span class="method-name">savingDataInCollections</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.savingDataInCollections() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@77fbd92c depends on not successfully finished methods 
+[com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.scrollToViewAndLoadElements() on instance com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms@77fbd92c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSortByRatingWithSpecificRating">
-                  </a> <!-- testSortByRatingWithSpecificRating -->
-                  <span class="method-name">testSortByRatingWithSpecificRating</span>
+                  <a name="scrollToViewAndLoadElements">
+                  </a> <!-- scrollToViewAndLoadElements -->
+                  <span class="method-name">scrollToViewAndLoadElements</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:62)
+	at com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms.verifyGymsTitleClass(Gyms.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:125)
+	... 30 more
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.108)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e8d9e1e098a0dc54ff719d3d1eb17cc, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2440837\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51581/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e8d9e1e098a0dc54ff719d3d1eb17cc
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:630)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:330)
+	at com.cognizant.QEA25QE028.PomClasses.GymsWebPage.&lt;init&gt;(GymsWebPage.java:29)
+	... 33 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cookieAndRefersh">
+                  </a> <!-- cookieAndRefersh -->
+                  <span class="method-name">cookieAndRefersh</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,71 +457,6 @@
                   <a name="verifyCarWashingServices">
                   </a> <!-- verifyCarWashingServices -->
                   <span class="method-name">verifyCarWashingServices</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="cookieAndRefersh">
-                  </a> <!-- cookieAndRefersh -->
-                  <span class="method-name">cookieAndRefersh</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigateToHomePage">
-                  </a> <!-- navigateToHomePage -->
-                  <span class="method-name">navigateToHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="printErrorMessage">
-                  </a> <!-- printErrorMessage -->
-                  <span class="method-name">printErrorMessage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sendData">
-                  </a> <!-- sendData -->
-                  <span class="method-name">sendData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="takeScreenShot">
-                  </a> <!-- takeScreenShot -->
-                  <span class="method-name">takeScreenShot</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="savingDataInCollections">
-                  </a> <!-- savingDataInCollections -->
-                  <span class="method-name">savingDataInCollections</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="scrollToViewAndLoadElements">
-                  </a> <!-- scrollToViewAndLoadElements -->
-                  <span class="method-name">scrollToViewAndLoadElements</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -361,62 +521,62 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'scrollToViewAndLoadElements')
-data.setCell(0, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms')
-data.setCell(0, 3, 50929);
+data.setCell(0, 1, 'testSearchBarInput')
+data.setCell(0, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome')
+data.setCell(0, 3, 15810);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'scrolling')
+data.setCell(1, 1, 'testSortByRatingWithSpecificRating')
 data.setCell(1, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
-data.setCell(1, 3, 14568);
+data.setCell(1, 3, 3877);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSearchBarInput')
-data.setCell(2, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome')
-data.setCell(2, 3, 13294);
+data.setCell(2, 1, 'cookieAndRefersh')
+data.setCell(2, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
+data.setCell(2, 3, 1207);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'navigateToHomePage')
-data.setCell(3, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
-data.setCell(3, 3, 9920);
+data.setCell(3, 1, 'verifyCarWashingServices')
+data.setCell(3, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome')
+data.setCell(3, 3, 64);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'savingDataInCollections')
-data.setCell(4, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms')
-data.setCell(4, 3, 9750);
+data.setCell(4, 1, 'sendData')
+data.setCell(4, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
+data.setCell(4, 3, 42);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'navigateBackToHomepage')
-data.setCell(5, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
-data.setCell(5, 3, 8038);
+data.setCell(5, 1, 'navigateToHomePage')
+data.setCell(5, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testSortByRatingWithSpecificRating')
-data.setCell(6, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
-data.setCell(6, 3, 3241);
+data.setCell(6, 1, 'printErrorMessage')
+data.setCell(6, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'cookieAndRefersh')
-data.setCell(7, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
-data.setCell(7, 3, 2646);
+data.setCell(7, 1, 'savingDataInCollections')
+data.setCell(7, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms')
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'savingDataInCollections')
-data.setCell(8, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
-data.setCell(8, 3, 1760);
+data.setCell(8, 1, 'scrollToViewAndLoadElements')
+data.setCell(8, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms')
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'sendData')
+data.setCell(9, 1, 'takeScreenShot')
 data.setCell(9, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
-data.setCell(9, 3, 1442);
+data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'takeScreenShot')
-data.setCell(10, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
-data.setCell(10, 3, 667);
+data.setCell(10, 1, 'scrolling')
+data.setCell(10, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'printErrorMessage')
-data.setCell(11, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage')
-data.setCell(11, 3, 601);
+data.setCell(11, 1, 'navigateBackToHomepage')
+data.setCell(11, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
+data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyCarWashingServices')
-data.setCell(12, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome')
-data.setCell(12, 3, 33);
+data.setCell(12, 1, 'savingDataInCollections')
+data.setCell(12, 2, 'com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices')
+data.setCell(12, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -435,6 +595,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">suiteSetup</span>
@@ -446,18 +615,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">suiteSetup</span>
-                <br/>
                 <span class="ignored-method-name">closeDriver</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</span>
-              <div class="ignored-methods-div">
                 <span class="ignored-method-name">suiteSetup</span>
-                <br/>
-                <span class="ignored-method-name">closeDriver</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -476,87 +636,63 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">testLoginCancelOperationAndClosePopUpMessage</span>
-                <span class="method-start">18043 ms</span>
+                <span class="method-start">18568 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testSearchBarInput</span>
-                <span class="method-start">22847 ms</span>
+                <span class="method-start">23040 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCarWashingServices</span>
-                <span class="method-start">36184 ms</span>
+                <span class="method-start">38938 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupCarWashingPage</span>
-                <span class="method-start">36223 ms</span>
+                <span class="method-start">39008 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testSortByRatingWithSpecificRating</span>
-                <span class="method-start">36544 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">scrolling</span>
-                <span class="method-start">39794 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">savingDataInCollections</span>
-                <span class="method-start">54367 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">navigateBackToHomepage</span>
-                <span class="method-start">56132 ms</span>
+                <span class="method-start">39348 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">homePageClickingFreeListingIcon</span>
-                <span class="method-start">64170 ms</span>
+                <span class="method-start">44276 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">cookieAndRefersh</span>
-                <span class="method-start">67423 ms</span>
+                <span class="method-start">48169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">sendData</span>
-                <span class="method-start">70074 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">takeScreenShot</span>
-                <span class="method-start">71535 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">printErrorMessage</span>
-                <span class="method-start">72208 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">72816 ms</span>
+                <span class="method-start">49397 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyGymsTitleClass</span>
-                <span class="method-start">82740 ms</span>
+                <span class="method-start">49497 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">scrollToViewAndLoadElements</span>
-                <span class="method-start">87300 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">savingDataInCollections</span>
-                <span class="method-start">138233 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">149037 ms</span>
+                <span class="method-start">51741 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

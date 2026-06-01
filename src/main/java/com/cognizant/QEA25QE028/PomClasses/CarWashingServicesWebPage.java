@@ -23,6 +23,7 @@ public class CarWashingServicesWebPage {
 	WebDriverWait wait;
 	JavascriptExecutor js;
 	
+	//CarWashingServicesWebPage constructor when gets invoked the WebDriver gets initialized
 	public CarWashingServicesWebPage(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -117,6 +118,7 @@ public class CarWashingServicesWebPage {
 		
 	}
 	
+	//scrolling the web page to load more car washing services stores
 	public void scrolling() throws InterruptedException {
 		
 		js = (JavascriptExecutor) driver;
@@ -156,14 +158,17 @@ public class CarWashingServicesWebPage {
 		driver.manage().deleteAllCookies();
 	}
 	
+	// To convert the assertion web element into text to verify it
 	public String getAssertionText() {
 		return assertText.getText();
 	}
 	
+	// To verify the sort by element is displayed or not
 	public boolean assertSortByDisplayed() {
 		return sortingList.isDisplayed();
 	}
 	
+	// To verify the rating specific is greater than "4.0+" is displayed or not
 	public boolean assertRatingSelectionDisplayed() {
 		return ratingGreaterThan4.isDisplayed();
 	}

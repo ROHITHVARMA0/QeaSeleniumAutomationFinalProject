@@ -6,6 +6,37 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="homePageClickingFreeListingIcon"/>
+          <include name="closeDriver"/>
+          <include name="sendData"/>
+          <include name="navigateToHomePage"/>
+          <include name="takeScreenShot"/>
+          <include name="printErrorMessage"/>
+          <include name="cookieAndRefersh"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage -->
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="testSearchBarInput"/>
+          <include name="closeDriver"/>
+          <include name="testLoginCancelOperationAndClosePopUpMessage"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome -->
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="closeDriver"/>
+          <include name="savingDataInCollections"/>
+          <include name="scrolling"/>
+          <include name="navigateBackToHomepage"/>
+          <include name="setupCarWashingPage"/>
+          <include name="testSortByRatingWithSpecificRating"/>
+        </methods>
+      </class> <!-- com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices -->
       <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms">
         <methods>
           <include name="suiteSetup"/>

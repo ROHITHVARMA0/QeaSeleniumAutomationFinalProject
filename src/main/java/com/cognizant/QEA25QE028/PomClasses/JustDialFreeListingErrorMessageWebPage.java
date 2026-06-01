@@ -24,25 +24,29 @@ public class JustDialFreeListingErrorMessageWebPage {
 	
 	ConfigLoader cfl;
 	
+	//JustDialFreeListingErrorMessageWebPage constructor when gets invoked the WebDriver gets initialized
 	public JustDialFreeListingErrorMessageWebPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver,this);
 		System.out.println(driver.getTitle());
 	}
 	
-	
+	//Reading excel file and getting data from the excel file
 	ReadFromExcelFile readData = new ReadFromExcelFile();
 		
 	
 //	@FindBy(xpath="//div/a[text()='Free Listing']")
 //	public WebElement freeListingElement;
 	
+	//The web element of phone number input field
 	@FindBy(id="1")
 	public WebElement phoneNumberElement;
 	
+	//THe start now button
 	@FindBy(xpath = "(//button[text()='Start Now '])[1]")
 	public WebElement startNow;
 	
+	//The error message that gets displayed after giving an invalid input
 	@FindBy(xpath = "//span[@class='undefined entermobilenumber_error__text__uPM09']")
 	public WebElement errorMessage;
 	
@@ -51,15 +55,18 @@ public class JustDialFreeListingErrorMessageWebPage {
 //		freeListingElement.click();
 //	}
 	
+	//Sending an invalid input into phone number input web element that we got after reading excel file
 	public void phoneNumberElementSendKeys() throws IOException {
 		String[] input = ReadFromExcelFile.testReadExcelSheet();
 		phoneNumberElement.sendKeys(input[1]);
 	}
 	
+	//Clicking on the start now button
 	public void startNowClick() {
 		startNow.click();
 	}
 	
+	//Printing the error message we got after giving an invalid input in phone number input field
 	public void printErrorMessage() {
 		System.out.println("The Error Message while giving Invalid Input for Free Listing is : "+errorMessage.getText());
 	}
@@ -80,34 +87,8 @@ public class JustDialFreeListingErrorMessageWebPage {
 		driver.navigate().back();
 	}
 	
+	//Taking screenshot of the web page when the error message gets displayed in the web page
 	public void takeScreenShot() {
-		
-//		TakesScreenshot screenShot = (TakesScreenshot) driver;
-//		File screenShotFile = screenShot.getScreenshotAs(OutputType.FILE);
-//		File targetFile = new File(System.getProperty("user.dir")+"\\projectResourcesOutputs\\screenshot.png");
-//		screenShotFile.renameTo(targetFile);
-		
-//		TakesScreenshot screenShot = (TakesScreenshot) driver;
-//		File srcFile = screenShot.getScreenshotAs(OutputType.FILE); // Temporary file from Selenium
-//
-//		// Define the final destination file
-//		File targetFile = new File(System.getProperty("user.dir") + "\\test-output\\projectResourcesOutputs\\screenshot.png");
-//
-//		try {
-//		    // 1. Ensure the destination directory exists
-//		    targetFile.getParentFile().mkdirs(); 
-//
-//		    // 2. Use Files.copy() with REPLACE_EXISTING to reliably overwrite the old file
-//		    // This is much more reliable than renameTo()
-//		    Files.copy(srcFile.toPath(), targetFile.toPath());
-//		    
-//		    System.out.println("Screenshot successfully saved and updated at: " + targetFile.getAbsolutePath());
-//		    
-//		} catch (IOException e) {
-//		    // Handle potential exceptions like permission issues or path errors
-//		    System.err.println("Failed to save or overwrite screenshot: " + e.getMessage());
-//		    e.printStackTrace();
-//		}
 		
 		try {
 		    // Check if the driver supports screenshots
@@ -141,20 +122,24 @@ public class JustDialFreeListingErrorMessageWebPage {
 		
 	}
 	
+	//Checking whether we got redirected from home page to free listing page of just dial
 	public void testFreeListingTitle() {
 		if (!JustDialHomePage.proceedToFreeListing) {
             throw new SkipException("Skipping FreeListing class because title verification failed in JustDialHome.");
        }
 	}
 	
+	//Checking whether the phone number field is enabled
 	public boolean assertPhoneNumberEnabled() {
 		return phoneNumberElement.isEnabled();
 	}
 	
+	//Checking whether the start now button is enabled
 	public boolean assertStartNowButtonEnabled() {
 		return startNow.isEnabled();
 	}
 	
+	//Checking whether the error message gets displayed after providing an invalid number
 	public boolean assertErrorMessageDisplayed() {
 		return errorMessage.isDisplayed();
 	}
