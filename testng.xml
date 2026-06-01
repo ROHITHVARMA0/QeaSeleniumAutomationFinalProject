@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+  <listener class-name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.ProjectEventListeners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialHome"/>
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.CarWashingServices"/>
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.JustDialFreeListingErrorMessage"/>
+      <class name="com.cognizant.QEA25QE028.Selenium.TestNG.ProjectNew.Gyms"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
